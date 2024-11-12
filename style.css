@@ -1,0 +1,188 @@
+
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    z-index: 1111111;
+}
+.navbar nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar nav ul{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar nav ul li{
+    list-style: none;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+.navbar nav ul li a:hover{
+    color: white;
+}
+#video {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+.video-b {
+    height: 100vh;
+}
+.h10{
+    height: 200px;
+}
+.category-section {
+    background-image: url(picjumbo.com_IMG_5790.jpg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+    color: white;
+}
+.category-card  {
+    background-color: rgba(255, 9, 9, 0.176);
+    height: 200px;
+    color: white;
+    padding-top: 15px;
+    border-radius: 0;
+    overflow: hidden;
+}
+.category-card:nth-child(1) {
+    background-color: rgba(90, 130, 72, 0.316);
+}
+.category-card:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.316);
+}
+.category-card:nth-child(3) {
+    background-color: rgba(101, 0, 0, 0.348);
+}
+.category-card h1 , h4 {
+    text-align: center;
+}
+/* blur */
+.category-card p {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000000a9;
+    text-align: center;
+    scale: 1.1;
+    color: white;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+.h20{height: 350px;} 
+
+
+.sec:hover .icon-s{
+    animation-name: icon-h;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes icon-h{
+    0%{
+        transform: translateY(160px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.second-section-card:hover .icon-s
+{
+   
+    transition: .5s linear;
+  
+}
+.icon-s:hover{
+    scale: 0.9;
+}
+.second-section-card:hover .second-section-card:not(:hover) {
+    transform: scale(.9);
+    filter: blur(15px);
+}
+
+.second-section-card-1{
+    overflow: hidden;
+}
+
+.divki-aatma {
+    width: 265px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.445);
+    position: absolute;
+    opacity: 0;
+    transition: .2s linear;
+    
+}
+
+.second-section-card-1:hover .divki-aatma{
+    transition: .2s linear;
+    opacity: 5;
+}
+
+.second-section-card-1:hover img {
+    transform: rotate(10deg);
+    transition: .2s;
+    scale: 1.5;
+}
+
+.imd-div-2 {
+    background: url(h1.jpg);
+    background-size:contain ;
+    height: 450px;
+    overflow: hidden;
+}
+
+.img-div-4 {
+    background-image: url(eight-back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.img-div-3 {
+
+    background-image: url(j5.jpeg);
+    background-size:cover ;
+    /* height: 500px; */
+    background-attachment: fixed;
+    
+
+}
+
+.br {
+
+    border: 0.5px solid rgb(180, 180, 180);
+
+}
+
+.img-div-5 {
+
+    background-image: url(j6.jpg);
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.box{
+    height: 400px;
+}
+.box-img{
+    height: 250px;
+    object-fit: cover;
+}
